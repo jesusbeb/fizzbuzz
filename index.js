@@ -10,3 +10,5 @@ ExplorerService.filterByMission(explorers, "node"); // clase 1
 ExplorerService.getAmountOfExplorersByMission(explorers, "node"); // clase 2
 ExplorerService.getExplorersUsernamesByMission(explorers, "node"); // clase 3
 
+//const prueba= ExplorerService.getExplorersByStack(explorers, "javascript");
+//console.log(prueba);
