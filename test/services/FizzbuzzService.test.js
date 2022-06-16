@@ -19,5 +19,5 @@ describe("Test para FizzbuzzService", () => {
     test("4. Enviando un numero que regrese FIZZBUZZ", () => {
         number= FizzbuzzService.applyValidationInNumber(15);
         expect(number).toBe("FIZZBUZZ");
-    })
+    });
 });
