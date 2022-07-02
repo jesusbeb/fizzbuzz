@@ -8,7 +8,8 @@
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
     "linter": "node ./node_modules/eslint/bin/eslint.js .",
     "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
-    "server": "node ./lib/server.js"
+    "server": "node ./lib/server.js",
+    "bot": "node ./lib/bot.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,8 @@
     "jest": "^26.0.0"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-telegram-bot-api": "^0.58.0"
   }
 }
